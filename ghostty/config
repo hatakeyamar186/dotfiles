@@ -1,0 +1,38 @@
+# Ghostty configuration
+
+# Font
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+
+# Theme
+theme = "Catppuccin Mocha"
+
+# Window
+window-padding-x = 4
+window-padding-y = 4
+window-decoration = true
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+
+# Shell integration
+shell-integration = fish
+
+# Clipboard
+clipboard-read = allow
+clipboard-write = allow
+
+# macOS: Option key as Alt (for Zellij keybindings)
+macos-option-as-alt = true
+
+# Quick terminal (for standalone use)
+keybind = super+t=new_tab
+keybind = super+w=close_surface
+keybind = delete=text:[3~
+term = xterm-256color
+
+# Background
+background = #000000
+background-opacity = 0.93
+background-blur = 20
